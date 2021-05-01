@@ -1,0 +1,344 @@
+body {}
+
+aside#menu-cortina {
+    width: 290px; 
+    height: 100%; 
+    display: none; 
+    margin: 0; 
+    float: none; 
+    position: fixed; 
+    right: -290px; 
+    top: 0; 
+    z-index: 999; 
+    background: #350a5d;
+}
+aside#menu-cortina a#abrir {
+    width: 35px; 
+    height: auto; 
+    margin: 0; 
+    float: none; 
+    position: absolute; 
+    top: 25px; 
+    left: -35px; 
+    display: block; 
+    text-decoration: none; 
+    color: #fff; 
+    background: #f3114f; 
+    font-weight: 600; 
+    font-size: 1em; 
+    line-height: 1em; 
+    text-align: center; 
+    padding: 10px 0; 
+    border-radius: 5px 0 0 5px; 
+    transition: all 0.3s ease-in;
+}
+aside#menu-cortina a#abrir:hover {
+    background: #350a5d; 
+    transition: all 0.3s ease-in
+}
+aside#menu-cortina a#cerrar {
+    width: 35px; height: auto; 
+    margin: 0; float: none; 
+    position: absolute; 
+    top: 25px; left: -35px; 
+    display: none; 
+    text-decoration: none; 
+    color: #fff; 
+    background: #f3114f; 
+    font-weight: 600; 
+    font-size: 1em; 
+    line-height: 1em; 
+    text-align: center; 
+    padding: 10px 0; 
+    border-radius: 5px 0 0 5px; 
+    transition: all 0.3s ease-in;
+}
+aside#menu-cortina a#cerrar i {
+    background: #350a5d; 
+    transition: all 0.3s ease-in;
+}
+
+aside#menu-cortina nav#menu-principal-movil {
+    width: 60%; 
+    height: auto; 
+    margin: 15% auto; 
+    float: none; 
+    position: relative;
+}
+aside#menu-cortina nav#menu-principal-movil a {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    float: none; 
+    position: relative; 
+    color: #fff; 
+    font-weight: 600; 
+    font-size: 1.25em; 
+    padding: 10px 0; 
+    text-decoration: none; 
+    transition: all 0.3s ease-in;
+}
+aside#menu-cortina nav#menu-principal-movil a:hover {
+    color: #f3114f; 
+    transition: all 0.3s ease-in;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    top: 0;
+    position: fixed;
+    z-index: 99998;
+}
+header article {
+    width: 100%;
+    height: 90px;
+    background: rgba(85, 107, 47, 0.288);;
+}
+header article a#logo {
+    width: 70px;
+    height: auto;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    top: 10px;
+}
+header article a#logo img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: block;
+    top: 0;
+}
+
+main section#fila-banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+main section#fila-banner article {
+    width: 100%;
+    height: 600px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    background: url(img/ARRIBA\ 1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+main section#fila-gal {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+main section#fila-gal article {
+    width: 100%;
+    height: 600px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+main section#fila-gal article figure#gal:nth-child(1) {
+    width: 50%;
+    height: 600px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    background: url(img/ARRIBA\ 2.jpg) no-repeat bottom;
+    background-size: cover;
+}
+main section#fila-gal article figure#gal:nth-child(2) {
+    width: 50%;
+    height: 600px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+}
+main section#fila-gal article figure#gal div:nth-child(1) {
+    width: 100%;
+    height: 300px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    background: url(img/ARRIBA\ 3.jpg) no-repeat center center;
+    background-size: cover;
+}
+main section#fila-gal article figure#gal div:nth-child(2) {
+    width: 30%;
+    height: 300px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    background: url(img/ARRIBA\ 4.jpg) no-repeat center center;
+    background-size: cover;
+}
+main section#fila-gal article figure#gal div:nth-child(3) {
+    width: 70%;
+    height: 300px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    background: url(img/ARRIBA\ 5.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+main section#fila-fancy {
+    width: 100%;
+    height: auto;
+}
+main section#fila-fancy article {
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+}
+main section#fila-fancy article figure {
+    width: 100%;
+    height: 300px;
+    margin: 13px auto;
+    padding: 15px 0;
+    display: block;
+    position: relative;
+}
+main section#fila-fancy article figure a {
+    width: 300px;
+    height: 300px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 39px;
+}
+main section#fila-fancy article figure a img {
+    width: 100%;
+}
+
+main section#fila-img-bt {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+main section#fila-img-bt article {
+    width: 100%;
+    height: 900px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+main section#fila-img-bt article figure:nth-child(1) {
+    width: 50%;
+    height: 900px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+}
+main section#fila-img-bt article figure:nth-child(1) div:nth-child(1) {
+    width: 100%;
+    height: 300px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    background: url(img/ABAJO\ 1.jpg) no-repeat center center;
+    background-size: cover;
+}
+main section#fila-img-bt article figure:nth-child(1) div:nth-child(2) {
+    width: 100%;
+    height: 600px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    background: url(img/ABAJO\ 2.jpg) no-repeat center center;
+    background-size: cover;
+}
+main section#fila-img-bt article figure:nth-child(1) div:nth-child(3) {
+    width: 50%;
+    height: 300px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    background: url(img/ABAJO\ 3.jpg) no-repeat center center;
+    background-size: cover;
+}
+main section#fila-img-bt article figure:nth-child(1) div:nth-child(4) {
+    width: 50%;
+    height: 300px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    background: url(img/ABAJO\ 4.jpg) no-repeat center center;
+    background-size: cover;
+}
+main section#fila-img-bt article figure:nth-child(2) {
+    width: 50%;
+    height: 900px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+}
+main section#fila-img-bt article figure:nth-child(2) div:nth-child(1) {
+    width: 50%;
+    height: 300px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    background: url(img/ABAJO\ 5.jpg) no-repeat center center;
+    background-size: cover;
+}
+main section#fila-img-bt article figure:nth-child(2) div:nth-child(2) {
+    width: 50%;
+    height: 300px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    background: url(img/ABAJO\ 6.jpg) no-repeat center center;
+    background-size: cover;
+}
+main section#fila-img-bt article figure:nth-child(2) div:nth-child(3) {
+    width: 100%;
+    height: 600px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    background: url(img/ABAJO\ 7.jpg) no-repeat center center;
+    background-size: cover;
+}
+main section#fila-img-bt article figure:nth-child(2) div:nth-child(4) {
+    width: 100%;
+    height: 300px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    background: url(img/ABAJO\ 8.jpg) no-repeat center center;
+    background-size: cover;
+}
